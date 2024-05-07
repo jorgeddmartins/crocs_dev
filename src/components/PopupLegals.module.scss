@@ -1,0 +1,21 @@
+@use '@styles/base' as *;
+
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.layout {
+  background: url('../assets/images/beigebackground.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: var(--viewport-height);
+  padding: rem(72) rem(16);
+  @media only screen and (min-width: $desktop) {
+    padding: rem(164) rem(16);
+  }
+}

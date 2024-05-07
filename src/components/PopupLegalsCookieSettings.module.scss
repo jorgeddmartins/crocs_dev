@@ -1,0 +1,40 @@
+@use '@styles/base' as *;
+
+.wrap {
+  @extend %crocsBox;
+  max-width: rem(515);
+  margin: auto;
+  background: #fff;
+}
+
+.content {
+  h1 {
+    font-weight: 800;
+    line-height: rem(32);
+    margin-top: 0;
+  }
+  font-weight: 700;
+  @media only screen and (min-width: $desktop) {
+    font-weight: 800;
+    font-size: rem(20);
+    line-height: rem(24);
+  }
+}
+
+.dataChecks {
+  h4 {
+    font-size: rem(30);
+    font-weight: 800;
+    line-height: rem(32);
+    margin-bottom: rem(16);
+  }
+}
+
+.message,
+.contentInner {
+  @extend %caption;
+}
+
+.bottomContent {
+  margin-top: rem(10);
+}

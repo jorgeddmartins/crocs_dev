@@ -1,0 +1,117 @@
+@use '@styles/base' as *;
+
+.dontForget {
+  position: relative;
+  width: 100%;
+  max-width: rem(350);
+  align-items: center;
+  margin-top: rem(32);
+  background: $color-crocs5;
+  border: rem(6) solid $color-crocs21;
+  border-radius: rem(12);
+  padding: rem(20);
+  @media only screen and (min-width: $desktop) {
+    width: rem(455);
+    max-width: rem(455);
+    border-radius: rem(12);
+    column-gap: rem(12);
+    padding: rem(30);
+    display: flex;
+  }
+  .hideMobile {
+    @media only screen and (max-width: $desktop) {
+      display: none;
+    }
+  }
+  .topImage {
+    position: absolute;
+    top: rem(-27);
+    left: rem(1);
+    @media only screen and (min-width: $desktop) {
+      top: rem(-23);
+      left: rem(-23);
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(5);
+    text-align: center;
+    @media only screen and (min-width: $desktop) {
+      text-align: left;
+      &.centered {
+        text-align: center;
+      }
+    }
+    h3 {
+      @extend %h3;
+      font-weight: 800;
+      font-size: rem(20);
+      line-height: rem(20);
+      color: $color-crocs8;
+    }
+    h4,
+    p {
+      @extend %h4;
+      font-weight: 600;
+      color: $color-crocs11;
+      font-size: rem(13);
+      line-height: rem(20);
+      em {
+        font-style: normal;
+        color: $color-crocs8;
+        background: $color-crocs11;
+        display: inline-block;
+        padding: rem(6) rem(20);
+      }
+    }
+    p {
+      margin-bottom: 1rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    small {
+      font-size: rem(12);
+      line-height: rem(16);
+    }
+  }
+  .bottomImage {
+    position: absolute;
+    bottom: rem(-39);
+    right: rem(-26);
+    @media only screen and (min-width: $desktop) {
+      bottom: rem(-36);
+      right: rem(-57);
+    }
+  }
+  svg {
+    display: none;
+    width: rem(96);
+    height: rem(96);
+    display: block;
+    @media only screen and (min-width: $desktop) {
+      display: flex;
+    }
+  }
+}
+
+.shareBox {
+  display: flex;
+  &.vertical {
+    flex-direction: column;
+  }
+}
+
+.textDesk {
+  display: none;
+  @media only screen and (min-width: $desktop) {
+    display: block;
+  }
+}
+
+.textMob {
+  @media only screen and (min-width: $desktop) {
+    display: none;
+  }
+}

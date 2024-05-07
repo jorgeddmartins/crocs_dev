@@ -1,0 +1,89 @@
+@use '@styles/base' as *;
+
+.quizWrap {
+  width: 100%;
+  min-height: var(--viewport-height);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background: url('../assets/images/greenbackground.png') center no-repeat;
+  background-size: cover;
+  padding-bottom: rem(80);
+  padding-left: rem(16);
+  padding-right: rem(16);
+  overflow: hidden;
+
+  @media only screen and (max-height: $shortmob) {
+    padding-bottom: rem(0);
+  }
+
+  @media only screen and (min-width: $desktop) and (orientation: landscape) {
+    padding-left: rem(32);
+    padding-right: rem(32);
+    padding-bottom: rem(80);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    @media only screen and (min-width: $desktop) and (orientation: landscape) {
+      justify-content: center;
+    }
+  }
+}
+
+.top {
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: rem(32);
+  @media only screen and (max-height: $shortmob) {
+    margin-top: rem(20);
+  }
+
+  h2 {
+    @extend %h2;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: rem(35);
+    padding-top: rem(25);
+    color: $color-crocs8;
+
+    @media only screen and (max-height: $shortmob) {
+      padding-bottom: rem(25);
+      padding-top: rem(15);
+    }
+    @media only screen and (min-width: $desktop) and (orientation: landscape) {
+      @include h1();
+      padding-top: rem(32);
+    }
+  }
+}
+
+.progressBar {
+  position: relative;
+  top: 0;
+  left: auto;
+  width: rem(200);
+  height: rem(8);
+  background: $color-crocs11;
+  border-radius: rem(40);
+  overflow: hidden;
+  display: block;
+  .progressHandle {
+    position: absolute;
+    height: 100%;
+    background: $color-crocs8;
+  }
+  @media only screen and (min-width: $desktop) and (orientation: landscape) {
+    position: relative;
+    width: rem(326);
+    height: rem(16);
+  }
+}

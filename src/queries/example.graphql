@@ -1,0 +1,6 @@
+query Example {
+  languages {
+    code
+    name
+  }
+}

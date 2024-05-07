@@ -1,0 +1,58 @@
+@use '@styles/base' as *;
+
+.dropDownWrap {
+  position: relative;
+  width: 100%;
+  min-height: rem(60);
+  background: $color-crocs11;
+  border: rem(6) solid $color-crocs8;
+  border-radius: rem(9);
+  padding-left: rem(70);
+  display: flex;
+  align-items: center;
+  .arrow {
+    position: absolute;
+    width: rem(50);
+    height: rem(49);
+    top: 0;
+    right: 0;
+    background: $color-crocs8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      content: '';
+      width: rem(27);
+      height: rem(27);
+      background-image: url('../assets/images/arrow.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  select {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    @extend %bodyText;
+    font-weight: 800;
+    color: $color-crocs8;
+    width: 100%;
+    height: rem(46);
+    border: 0;
+    background: transparent;
+    padding-left: rem(84);
+    padding-right: rem(55);
+    &:focus {
+      outline: none;
+    }
+  }
+  .flag {
+    position: absolute;
+    width: rem(43);
+    height: rem(31);
+    left: rem(10);
+    top: auto;
+  }
+}

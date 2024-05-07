@@ -1,0 +1,53 @@
+@use '@styles/base' as *;
+
+.wrap {
+  display: flex;
+  p:first-child {
+    margin-top: 0;
+  }
+}
+
+.input {
+  margin-right: rem(16);
+  position: relative;
+  width: rem(25);
+  height: rem(25);
+  display: block;
+  svg {
+    fill: $color-crocs8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: rem(14);
+    height: rem(12);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease opacity;
+  }
+  input {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: rem(25);
+    height: rem(25);
+    &:before {
+      display: block;
+      content: '';
+      border: rem(6) solid $color-crocs8;
+      width: rem(12);
+      height: rem(12);
+      border-radius: 50%;
+      transition: 0.3s ease background;
+    }
+    &:checked {
+      &:before {
+        background: $color-crocs8;
+      }
+      & + svg {
+        opacity: 1;
+      }
+    }
+  }
+}

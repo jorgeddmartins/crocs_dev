@@ -1,0 +1,72 @@
+@use 'variables' as *;
+@use 'functions' as *;
+@forward 'fonts';
+
+%font {
+  font-family: $fontface;
+  margin: 0;
+}
+
+%display {
+  @extend %font;
+  font-size: rem(100);
+  line-height: rem(101);
+}
+
+@mixin display {
+  font-family: $fontface;
+  margin: 0;
+  font-size: rem(100);
+  line-height: rem(101);
+}
+
+%h1 {
+  @extend %font;
+  font-size: rem(52);
+  line-height: rem(53);
+}
+
+@mixin h1 {
+  font-family: $fontface;
+  margin: 0;
+  font-size: rem(52);
+  line-height: rem(53);
+}
+
+%h2 {
+  @extend %font;
+  font-size: rem(30);
+  line-height: rem(31);
+}
+
+%h3 {
+  @extend %font;
+  font-size: rem(24);
+  line-height: rem(25);
+}
+
+%h4 {
+  @extend %font;
+  font-size: rem(20);
+  line-height: rem(24);
+}
+
+%bodyText {
+  @extend %font;
+  font-size: rem(16);
+  line-height: rem(19);
+}
+
+%caption {
+  @extend %font;
+  font-size: rem(14);
+  line-height: rem(16);
+  font-weight: 700;
+}
+
+%small {
+  @extend %font;
+  font-size: rem(12);
+  line-height: rem(15);
+  font-weight: 400;
+}

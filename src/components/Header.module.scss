@@ -1,0 +1,47 @@
+@use '@styles/base' as *;
+
+.header {
+  width: 100%;
+  height: auto;
+  padding-top: rem(16);
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative;
+  @media only screen and (min-width: $desktop) {
+    padding-top: rem(32);
+    height: rem(100);
+  }
+
+  .nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .back,
+    .info {
+      width: rem(24);
+      height: rem(24);
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+
+      @media only screen and (min-width: $desktop) {
+        width: rem(64);
+        height: rem(64);
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .logo {
+      width: rem(101);
+      height: rem(40);
+      @media only screen and (min-width: $desktop) {
+        width: rem(250);
+        height: rem(100);
+      }
+    }
+  }
+}

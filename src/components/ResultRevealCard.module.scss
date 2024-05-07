@@ -1,0 +1,176 @@
+@use '@styles/base' as *;
+
+.revealCardPos,
+.revealCardRot,
+.perspectiveContainer {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  animation-timing-function: ease-in-out;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.perspectiveContainer {
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+  perspective: rem(8000);
+  overflow: hidden;
+  min-height: var(--viewport-height);
+  &.revealed {
+    .revealCardRot {
+      transform: translateZ(rem(-1000)) rotateY(-180deg);
+      opacity: 0;
+    }
+  }
+}
+
+.revealCard {
+  @extend %crocsBox;
+  backface-visibility: hidden;
+  margin: rem(0) rem(16) 0;
+  padding: rem(24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  .cardWrap {
+    position: relative;
+    left: 0;
+  }
+  .resultLoaderCard {
+    margin-bottom: rem(16);
+    max-width: 100%;
+    height: auto;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: rem(30);
+    line-height: rem(32);
+  }
+  svg {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  @media only screen and (min-width: $desktop) {
+    display: none;
+  }
+}
+
+.revealGraphic {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--viewport-height);
+  display: none;
+  .frame {
+    top: 0;
+    width: auto;
+    height: var(--viewport-height);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cardGraphic {
+    position: relative;
+    object-fit: contain;
+    height: calc(0.65 * var(--viewport-height));
+  }
+  .clickIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  button {
+    position: absolute;
+    max-width: rem(397);
+    bottom: 7%;
+    top: auto;
+    left: auto;
+    cursor: pointer;
+  }
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+.cardWrap {
+  top: 50%;
+  left: 50%;
+  @media only screen and (min-width: $desktop) {
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+  .jibbitShell,
+  .jibbitHand,
+  .jibbitPaddle,
+  .jibbitBoard,
+  .jibbitMoon {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    max-width: rem(200);
+    @media only screen and (min-width: $desktop) {
+      width: calc(0.19 * var(--viewport-height));
+      max-width: auto;
+    }
+  }
+  .jibbitShell {
+    transform: translate(-50%, -50%) rotate(-10deg);
+    margin-top: -30%;
+    margin-left: 4%;
+    @media only screen and (min-width: $desktop) {
+      margin-top: calc(-0.2 * var(--viewport-height));
+      margin-left: 0;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .jibbitHand {
+    transform: translate(-50%, -50%) rotate(15deg);
+    margin-top: -15%;
+    margin-left: -25%;
+    @media only screen and (min-width: $desktop) {
+      transform: translate(-50%, -50%) rotate(10deg);
+      margin-top: calc(-0.05 * var(--viewport-height));
+      margin-left: calc(-0.12 * var(--viewport-height));
+    }
+  }
+  .jibbitPaddle {
+    transform: translate(-50%, -50%) rotate(10deg);
+    margin-top: -8%;
+    margin-left: 30%;
+    @media only screen and (min-width: $desktop) {
+      transform: translate(-50%, -50%);
+      margin-top: calc(-0.05 * var(--viewport-height));
+      margin-left: calc(0.12 * var(--viewport-height));
+    }
+  }
+  .jibbitBoard {
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+    margin-left: -18%;
+    @media only screen and (min-width: $desktop) {
+      transform: translate(-50%, -50%) rotate(-15deg);
+      margin-top: calc(0.14 * var(--viewport-height));
+      margin-left: calc(-0.08 * var(--viewport-height));
+    }
+  }
+  .jibbitMoon {
+    transform: translate(-50%, -50%) rotate(27deg);
+    margin-top: 22%;
+    margin-left: 13%;
+    @media only screen and (min-width: $desktop) {
+      transform: translate(-50%, -50%) rotate(15deg);
+      margin-top: calc(0.14 * var(--viewport-height));
+      margin-left: calc(0.08 * var(--viewport-height));
+    }
+  }
+}

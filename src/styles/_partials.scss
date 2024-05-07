@@ -1,0 +1,10 @@
+@use '@styles/colors' as *;
+@use '@styles/functions' as *;
+
+%crocsBox {
+  box-shadow: 0 rem(5) 0 $color-crocs8;
+  border: rem(6) solid $color-crocs8;
+  border-radius: rem(15);
+  background: $color-crocs11;
+  padding: rem(32);
+}

@@ -1,0 +1,109 @@
+@use '@styles/base' as *;
+
+.tutorialWrap {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  min-height: var(--viewport-height);
+  top: 0;
+  left: 0;
+  background-image: url('../assets/images/greenbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: rem(20);
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  .contentWrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .bottomContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: rem(24);
+
+    @media only screen and (min-width: $desktop) {
+      margin-top: rem(64);
+    }
+
+    button {
+      max-width: rem(520);
+
+      @media only screen and (min-width: $desktop) {
+        max-width: rem(343);
+      }
+    }
+  }
+}
+
+.layout {
+  min-height: calc(var(--viewport-height) - rem(60));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: rem(30);
+  width: 100%;
+  @media only screen and (min-width: $desktop) {
+    padding-top: rem(30);
+    min-height: calc(var(--viewport-height) - rem(100));
+  }
+}
+
+.content {
+  width: 100%;
+  padding: rem(35) rem(12);
+  background: $color-crocs11;
+  border: 6px solid $color-crocs8;
+  border-radius: 9px;
+  max-width: rem(520);
+  color: $color-crocs8;
+}
+
+.step {
+  @extend %h4;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: rem(36);
+
+  .stepIndicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../assets/images/cloud.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: rem(77);
+    height: rem(40);
+  }
+  .stepText {
+    margin-top: rem(8);
+  }
+}
+
+.disclaimer {
+  @extend %small;
+  width: 100%;
+  text-align: center;
+
+  a {
+    font-weight: bold;
+    color: $color-crocs8;
+    text-decoration: underline;
+  }
+}

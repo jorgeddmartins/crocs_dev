@@ -1,0 +1,97 @@
+@use '@styles/base' as *;
+
+.termsWrap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../assets/images/beigebackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: rem(20);
+  padding-top: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: rem(20);
+  padding-bottom: rem(20);
+  @media only screen and (min-width: $desktop) {
+    padding-bottom: rem(50);
+  }
+  .contenWrap {
+    background: $color-crocs11;
+    border: rem(6) solid $color-crocs8;
+    box-shadow: 0 rem(5) 0 #231f20;
+    border-radius: rem(15);
+    display: flex;
+    width: 100%;
+    max-width: rem(715);
+    height: 85%;
+    flex-direction: column;
+    padding-top: rem(30);
+    padding-bottom: rem(30);
+    @media only screen and (min-width: $desktop) {
+      max-height: rem(715);
+    }
+  }
+  .content {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    padding-left: rem(30);
+    padding-right: rem(30);
+    flex-direction: column;
+    overflow: auto;
+    h2 {
+      @extend %h2;
+      font-weight: 800;
+      text-align: center;
+      color: $color-crocs8;
+      padding-bottom: rem(24);
+    }
+
+    p {
+      @extend %small;
+      padding-bottom: rem(20);
+    }
+    ul {
+      padding-left: 0;
+      margin: 0;
+      list-style: none;
+      span {
+        @extend %small;
+        font-weight: 800;
+      }
+      li {
+        @extend %small;
+        padding-bottom: rem(20);
+      }
+      .contentTitle {
+        position: relative;
+        left: rem(-22);
+        font-size: rem(18);
+        font-weight: 800;
+        text-transform: uppercase;
+        display: flex;
+        margin-bottom: rem(17);
+      }
+      .space {
+        display: block;
+        margin-top: rem(20);
+      }
+    }
+  }
+  .bottomContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: rem(30);
+    padding-right: rem(30);
+    margin-top: rem(25);
+  }
+}

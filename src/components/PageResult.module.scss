@@ -1,0 +1,26 @@
+@use '@styles/base' as *;
+
+.resultWrap {
+  background-image: url('../assets/images/resultbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-y: auto;
+  min-height: var(--viewport-height);
+  @media only screen and (min-width: $desktop) {
+    display: block;
+    justify-content: center;
+    padding-bottom: rem(70);
+  }
+
+  .header {
+    padding-left: rem(16);
+    padding-right: rem(16);
+
+    @media only screen and (min-width: $desktop) {
+      padding-left: rem(32);
+      padding-right: rem(32);
+    }
+  }
+}

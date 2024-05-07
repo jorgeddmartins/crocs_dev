@@ -1,0 +1,51 @@
+@use '@styles/base' as *;
+
+.languageWrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../assets/images/greenbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: rem(20);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media only screen and (min-width: $desktop) {
+    padding-bottom: rem(80);
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    max-width: rem(375);
+    background: $color-crocs11;
+    border: 6px solid $color-crocs8;
+    box-shadow: 0 5px 0px $color-crocs8;
+    border-radius: rem(15);
+    padding: rem(32);
+    top: rem(70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: rem(16);
+
+    h2 {
+      @extend %h2;
+      color: $color-crocs8;
+      font-weight: 800;
+      text-align: center;
+    }
+    p {
+      max-width: rem(260);
+      @extend %bodyText;
+      font-weight: 400;
+      color: $color-crocs8;
+      text-align: center;
+    }
+  }
+}

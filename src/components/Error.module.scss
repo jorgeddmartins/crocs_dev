@@ -1,0 +1,70 @@
+@use '@styles/base' as *;
+
+.errorWrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/greenbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: rem(52);
+  padding-top: 0;
+  padding-bottom: rem(24);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .contentWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    row-gap: rem(80);
+  }
+  .content {
+    width: 100%;
+    max-width: rem(518);
+    height: rem(368);
+    background: $color-crocs11;
+    border: rem(6) solid $color-crocs8;
+    border-radius: rem(15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: rem(9);
+    h1 {
+      @extend %h1;
+      font-weight: 800;
+      color: $color-crocs21;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    h2 {
+      width: rem(220);
+      @extend %h2;
+      font-size: rem(24);
+      line-height: rem(28);
+      font-weight: 800;
+      color: $color-crocs21;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .subTitle {
+      width: rem(200);
+      @extend %caption;
+      font-weight: 800;
+      color: $color-crocs21;
+      text-align: center;
+    }
+  }
+  .buttonContent {
+    width: 100%;
+    @media only screen and (min-width: $desktop) {
+      max-width: rem(269);
+    }
+  }
+}

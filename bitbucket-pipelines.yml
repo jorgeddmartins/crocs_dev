@@ -1,0 +1,86 @@
+definitions:
+  steps:
+    - step: &build
+        name: Build static files
+        image: node:16.15.0-slim
+        caches:
+          - node
+        script:
+          - export BUILD_ENV="development";
+          - if [ $BITBUCKET_BRANCH == "main" ]; then export BUILD_ENV="staging"; fi
+          - if [[ $BITBUCKET_TAG == *'release-'* ]]; then export BUILD_ENV="production"; fi
+          - echo "Build environment ${BUILD_ENV}"
+          - echo 'Running NPM Install'
+          - npm install
+          - apt-get update
+          - apt-get -y install ca-certificates # needed for sentry cli
+          - rm -rf .next out # Remove built directories from previous builds (prevent EEXIST error)
+          - echo 'Running NPM RUN EXPORT'
+          - npm run export
+        variables:
+          NODE_ENV: 'production'
+        artifacts:
+          - out/**
+
+    - step: &deploy
+        name: Deploy
+        caches:
+          - docker
+        script:
+          - echo  'Deploying to:' $DEPLOYMENT_ENVIRONMENT
+          - pipe: microsoft/azure-static-web-apps-deploy:main
+            variables:
+              APP_LOCATION: '$BITBUCKET_CLONE_DIR/out'
+              OUTPUT_LOCATION: ''
+              API_TOKEN: $DEPLOYMENT_TOKEN
+              DEPLOYMENT_ENVIRONMENT: $DEPLOYMENT_ENVIRONMENT
+              SKIP_APP_BUILD: 'true'
+              SKIP_API_BUILD: 'true'
+
+    - step: &deployBucket
+        name: Deploy_Bucket
+        script:
+          - echo  'Deploying to:' $DEPLOYMENT_ENVIRONMENT
+          - pipe: atlassian/azure-storage-deploy:1.0.2
+            variables:
+              SOURCE: '$BITBUCKET_CLONE_DIR/out/*'
+              DESTINATION: 'https://ommwebmedia.blob.core.windows.net/\\\$web/activity22/dev'
+              DESTINATION_SAS_TOKEN: $AZURE_STORAGE_SAS_TOKEN
+
+    - step: &terraform
+        name: Terraform
+        image: hashicorp/terraform:light
+        script:
+          - cd terraform
+          - terraform init -backend-config="storage_account_name=$TF_STATE_BLOB_ACCOUNT_NAME" -backend-config="container_name=$TF_STATE_BLOB_CONTAINER_NAME" -backend-config="key=$TF_STATE_BLOB_FILE" -backend-config="resource_group_name=$TF_STATE_RG"
+          - terraform validate
+          - terraform plan
+          - terraform apply -input=false -auto-approve
+pipelines:
+  default:
+    - step:
+        <<: *build
+  branches:
+    'develop':
+      - step:
+          <<: *build
+      - step:
+          <<: *deploy
+          deployment: dev
+    'main':
+      - step:
+          <<: *build
+      - step:
+          <<: *deploy
+          deployment: staging
+  tags:
+    release-*:
+      - step:
+          <<: *build
+      - step:
+          <<: *deploy
+          deployment: production
+          trigger: manual
+    iac-*:
+      - step:
+          <<: *terraform

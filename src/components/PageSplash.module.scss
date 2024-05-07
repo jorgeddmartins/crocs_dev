@@ -1,0 +1,99 @@
+@use '@styles/base' as *;
+
+.landingWrap {
+  width: 100%;
+  background-image: url('../assets/images/greenbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 rem(20) rem(20);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  min-height: calc(var(--viewport-height) - rem(0));
+  @media only screen and (min-width: $desktop) {
+    padding-bottom: 8.4vh;
+    min-height: calc(var(--viewport-height));
+  }
+  .contentWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 0;
+    flex: 1;
+
+    .content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      flex: 1;
+
+      @media only screen and (min-width: $desktop) {
+        row-gap: rem(30);
+      }
+    }
+    h2 {
+      width: rem(260);
+      margin-top: rem(46);
+      margin-bottom: rem(12);
+      margin-bottom: 1.5vh;
+      @extend %h2;
+      font-weight: 800;
+      text-align: center;
+      color: $color-crocs8;
+      text-transform: uppercase;
+      line-height: 1.2em;
+
+      @media only screen and (min-width: $desktop) {
+        position: relative;
+        font-size: 10vh;
+        line-height: 1em;
+        margin-top: 3.5vh;
+        //margin-top: rem(30);
+        font-weight: 900;
+        width: rem(900);
+      }
+      @media only screen and (min-height: rem(1300)) {
+        font-size: rem(100);
+      }
+    }
+    .frame_mobile {
+      max-width: 100%;
+      height: 50vh;
+      margin: auto;
+      object-fit: contain;
+
+      @media only screen and (min-width: $desktop) {
+        display: none;
+      }
+    }
+    .frame_desktop {
+      display: none;
+      width: 100%;
+      max-width: rem(1300);
+      height: 40vh;
+      object-fit: contain;
+      margin: auto;
+
+      @media only screen and (min-width: $desktop) {
+        display: block;
+      }
+    }
+  }
+  .bottomContent {
+    padding: rem(20);
+    width: 100%;
+    @media only screen and (min-width: $desktop) {
+      position: relative;
+      max-width: rem(343);
+      margin-top: rem(30);
+      padding: 0;
+    }
+  }
+}

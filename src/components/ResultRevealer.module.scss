@@ -1,0 +1,35 @@
+@use '@styles/base' as *;
+
+.wrap {
+  width: 100%;
+  perspective: rem(420);
+  transform-style: preserve-3d;
+  margin: rem(10) auto 0;
+  position: relative;
+  z-index: 0;
+  @media only screen and (min-width: $desktop) {
+    margin: rem(-100) auto 0;
+  }
+}
+.cta {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease 1s;
+  background: rgba($color: #eedfbb, $alpha: 0.9);
+  padding: rem(35) rem(20);
+  pointer-events: none;
+  &.isOpen {
+    pointer-events: all;
+    opacity: 1;
+  }
+  @media only screen and (min-width: $desktop) {
+    display: none;
+  }
+}
+.buttonContent {
+  @media only screen and (min-width: $desktop) {
+    display: none;
+  }
+}

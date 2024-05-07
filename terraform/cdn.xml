@@ -1,0 +1,57 @@
+<policy>
+    <rules>
+        <rule>
+            <description>File Caching</description>
+            <match.url.url-path.regex result="nomatch" value="^[^.]*$" ignore-case="false" encoded="false">
+                <feature.caching.external-max-age value="365" units="days"/>
+                <feature.caching.bypass-cache enabled="false"/>
+                <feature.caching.ignore-origin-no-cache codes="200"/>
+                <feature.caching.force-internal-max-age status="200" value="864000" units="seconds"/>
+            </match.url.url-path.regex>
+        </rule>
+        <rule>
+            <description>Ignore Auth</description>
+            <match.url.url-path.regex result="match" value="/.auth.*" ignore-case="false" encoded="false">
+                <feature.caching.bypass-cache enabled="true"/>
+            </match.url.url-path.regex>
+        </rule>
+        <rule>
+            <description>HTTPS</description>
+            <match.request.request-scheme.literal value="http">
+                <feature.url.url-redirect source="/801C1708/.*/(.*)" destination="https://%{host}/$1" code="301"/>
+            </match.request.request-scheme.literal>
+        </rule>
+        <rule>
+            <description>Non Files Caching</description>
+            <match.url.url-path.regex result="match" value="^[^.]*$" ignore-case="false" encoded="false">
+                <feature.caching.external-max-age value="10" units="seconds"/>
+                <feature.caching.bypass-cache enabled="true"/>
+            </match.url.url-path.regex>
+        </rule>
+        <rule>
+            <description>X-Forwarded-For</description>
+            <match.always>
+                <feature.origin.proxy-special-headers names="via x-forwarded-proto x-host x-midgress x-forwarded-for"/>
+                <feature.headers.modify-client-request-header action="set" name="X-Forwarded-Host" value="%{host}"/>
+            </match.always>
+        </rule>
+        <rule>
+            <description>Crocs</description>
+            <match.url.url-path.regex result="match" value="^[^?.]*$" ignore-case="false" encoded="false">
+                <match.url.url-path.regex result="nomatch" value="(en_GB|fr_FR|de_DE)($|/)" ignore-case="false" encoded="false">
+                        <select.first-match>
+                            <match.request.request-header.regex name="accept-language" result="match" value="^fr" ignore-case="false">
+                                <feature.url.url-redirect source="/801C1708/(endpoint-dev-crocs-jibbitz-crocsona|endpoint-prod-crocs-jibbitz-crocsona|endpoint-staging-crocs-jibbitz-crocsona)/(.*)$" destination="/fr_FR/$2" code="301"/>
+                            </match.request.request-header.regex>
+                            <match.request.request-header.regex name="accept-language" result="match" value="^de" ignore-case="true">
+                                 <feature.url.url-redirect source="/801C1708/(endpoint-dev-crocs-jibbitz-crocsona|endpoint-prod-crocs-jibbitz-crocsona|endpoint-staging-crocs-jibbitz-crocsona)/(.*)$" destination="/de_DE/$2" code="301"/>
+                            </match.request.request-header.regex>
+                            <match.request.request-header.regex name="accept-language" result="match" value="en" ignore-case="true">
+                                 <feature.url.url-redirect source="/801C1708/(endpoint-dev-crocs-jibbitz-crocsona|endpoint-prod-crocs-jibbitz-crocsona|endpoint-staging-crocs-jibbitz-crocsona)/(.*)$" destination="/en_GB/$2" code="301"/>
+                            </match.request.request-header.regex>
+                        </select.first-match>
+                </match.url.url-path.regex>
+            </match.url.url-path.regex>
+        </rule>
+    </rules>
+</policy>

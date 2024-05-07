@@ -1,0 +1,36 @@
+@use '@styles/base' as *;
+
+.button {
+  @extend %bodyText;
+  font-weight: 800;
+  width: 100%;
+  height: rem(60);
+  color: $color-crocs8;
+  background: $color-crocs11;
+  border-radius: rem(9);
+  border: rem(6) solid $color-crocs8;
+  box-shadow: 0 rem(5) 0 $color-crocs8;
+
+  transition: filter 0.3s ease;
+
+  &.disabled,
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  &.dark {
+    color: $color-crocs11;
+    background: $color-crocs8;
+    border: rem(6) solid $color-crocs11;
+  }
+  &.secondary {
+    /* box-shadow: none; */
+    border-color: $color-crocs17;
+    color: $color-crocs17;
+  }
+
+  &:hover {
+    filter: contrast(1.2);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,71 @@
+@use '@styles/base' as *;
+
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  svg {
+    width: 100vw;
+    max-width: 70vw;
+    display: block;
+    @media only screen and (min-width: 600px) {
+      max-width: 50vw;
+    }
+    @media only screen and (min-width: $desktop) {
+      width: 40vw;
+      max-width: rem(522);
+    }
+  }
+  .answer {
+    position: absolute;
+    @extend %h2;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    padding: rem(20) rem(40);
+
+    @media only screen and (min-width: 1200px) and (orientation: landscape) {
+      @include h1();
+    }
+
+    &.long {
+      @extend %h2;
+    }
+
+    &.lightText {
+      color: $color-crocs11;
+    }
+  }
+}
+
+.jibbit {
+  position: absolute;
+  &.top {
+    bottom: 100%;
+    right: 100%;
+    transform: translate(75%, 55%) scale(0.5);
+  }
+  &.bottom {
+    top: 100%;
+    left: 100%;
+    transform: translate(-75%, -55%) scale(0.5);
+  }
+  @media only screen and (min-width: $desktop) and (orientation: landscape) {
+    &.top {
+      transform: translate(100%, 50%);
+    }
+    &.bottom {
+      transform: translate(-100%, -50%);
+    }
+  }
+}
+
+.skewLeft {
+  transform: rotate(10deg);
+}
+
+.skewRight {
+  transform: rotate(-10deg);
+}

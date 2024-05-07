@@ -1,0 +1,272 @@
+﻿key,description,en_GB,de_DE,fr_FR,markdown
+meta.title,The main title of the page,Crocs-onality  Quiz,Crocs Quiz,Crocs Quiz,
+meta.author,"Meta data indicating the ""author"" of the website",Crocs,Crocs,Crocs,
+meta.description,Description of the website,Are you a Crocs-mic Cruiser perhaps a Graceful Crocs-tar or maybe a Gamer Guru? Find out what your Crocs-onality is by taking our fun crocking quiz!,"Bist du ein Crocs-mischer Weltenbummler, eine Fashion-Crocs-tar oder vielleicht ein Gamer Guru? 
+Entdecke deine Crocs-onality, mit unserem crazy Crocs Personality-Test!","Es-tu un Voyageur Crocs-mique, un Maître Gamer ou une Glam’ Crocs-tar ? Découvre ta Crocs-onnalité en jouant à notre quiz croc’ marrant !",
+meta.keywords,Keyword seperated by commas,"Crocs, Jibbitz","Crocs, Jibbitz","Crocs, Jibbitz",
+meta.og.site_name,"Site name displayed when sharing via Open Graph (Facebook, Teams, Slack, Whatsapp, ‚Ä¶)",Crocs-onality Quiz,Crocs Quiz,Crocs Quiz,
+meta.og.title,Title displayed when sharing via Open Graph,Crocs-onality Quiz,Crocs Quiz,Crocs Quiz,
+meta.og.description,Description when sharing via Open Graph,Are you a Crocs-mic Cruiser perhaps a Graceful Crocs-tar or maybe a Gamer Guru? Find out what your Crocs-onality is by taking our fun crocking quiz!,"Bist du ein Crocs-mischer Weltenbummler, eine Fashion-Crocs-tar oder vielleicht ein Gamer Guru? 
+Entdecke deine Crocs-onality, mit unserem crazy Crocs Personality-Test!","Es-tu un Voyageur Crocs-mique, un Maître Gamer ou une Glam’ Crocs-tar ? Découvre ta Crocs-onnalité en jouant à notre quiz croc’ marrant !",
+meta.twitter.title,Title when sharing via Twitter,Crocsonality Quiz,Crocs Quiz,Crocs Quiz,
+meta.twitter.description,Description when sharing via Twitter,Are you a Crocs-mic Cruiser perhaps a Graceful Crocs-tar or maybe a Gamer Guru? Find out what your Crocs-onality is by taking our fun crocking quiz!,"Bist du ein Crocs-mischer Weltenbummler, eine Fashion-Crocs-tar oder vielleicht ein Gamer Guru? 
+Entdecke deine Crocs-onality, mit unserem crazy Crocs Personality-Test!","Es-tu un Voyageur Crocs-mique, un Maître Gamer ou une Glam’ Crocs-tar ? Découvre ta Crocs-onnalité en jouant à notre quiz croc’ marrant !",
+quiz.question.prompt,Prompt title for each question,Would you rather…,Würdest du lieber...,Tu préfères...,
+quiz.question.prompt.or,,or,oder,ou,
+quiz.question.response[1.1],,be captured by aliens,von Außerirdischen entführt werden,être enlevé par des aliens,
+quiz.question.response[1.2],,be lost at sea?,in einem Rettungsboot auf hoher See ausgesetzt sein?,être perdu en pleine mer ?,
+quiz.question.response[2.1],,scroll through your timeline forever,für immer durch deine Timeline scrollen,scroller tout ton historique pour toujours,
+quiz.question.response[2.2],,time travel for 1 hour?,für eine Stunde die Timeline deines Tages kontrollieren?,scroller ton futur pendant 1 heure ?,
+quiz.question.response[3.1],,get stuck in a game forever,für immer auf dem HighScore deines Lieblingsgames stehen,être coincé dans un jeu vidéo pour l’éternité,
+quiz.question.response[3.2],,get stuck with fame forever?,für immer als Superstar im Scheinwerferlicht stehen?,être célèbre toute ta vie ?,
+quiz.question.response[4.1],,be able to multitask everything,ein Multi-Tasking-Talent sein,être polyvalent dans tout,
+quiz.question.response[4.2],,be really epic at one thing?,ein Genie in einer ganz bestimmten Sache sein?,être vraiment doué pour une chose ?,
+quiz.question.response[5.1],,listen to your least-favorite song on a loop for a year,ein ganzes Jahr lang ein gehasstes Lied in Dauerschleife hören,écouter la chanson que tu détestes le plus en boucle pendant un an,
+quiz.question.response[5.2],,never listen to any music at all for a year?,ein ganzes Jahr lang überhaupt keine Musik hören?,n’écouter aucune musique pendant un an ?,
+quiz.question.response[6.1],,time travel to the past,in die Vergangenheit reisen,voyager dans le passé,
+quiz.question.response[6.2],,time travel to the future?,in die Zukunft reisen?,voyager dans le futur ?,
+quiz.question.response[7.1],,fly first class for one elegant vacation,einmal luxuriös in der ersten Klasse in einen schicken (kurzen) Urlaub fliegen,voyager en première classe pour un séjour super hype,
+quiz.question.response[7.2],,take several cheap trips and backpack?,mehrere preiswerte Abenteuertrips mit dem Rucksack machen?,faire plusieurs voyages pas chers en mode sac à dos ?,
+quiz.question.response[8.1],,own every piece of clothing ever made,jedes jemals hergestellte Kleidungsstück besitzen,posséder tous les vêtements de la Terre,
+quiz.question.response[8.2],,10 top basic essentials?,nur die 10 absoluten Must-Haves in deinem Schrank haben?,avoir 10 pièces essentielles ?,
+quiz.question.response[9.1],,have a pool in your backyard,einen Swimming-Pool im Garten haben,avoir une piscine dans ton jardin,
+quiz.question.response[9.2],,live next to the ocean?,am Meer leben?,vivre au bord de l’océan ?,
+quiz.question.response[10.1],,be the first to arrive,der erste Party-Gast sein,être le premier à arriver en soirée,
+quiz.question.response[10.2],,be the last one to leave at a party?,"der Letzte sein, der geht?",être le dernier à en repartir ?,
+personas.1.name,,The Crocs-mic Cruiser,CROCS-MISCHER WELTENBUMMLER,LE VOYAGEUR CROCS-MIQUE,
+personas.1.desc,,"You're an independent, and adventurous soul, fearlessly embracing your unique self. With trusty Crocs on, you're always prepared for daily escapades, never skipping a horoscope check. And those alien-themed Jibbitz? They perfectly match your extraterrestrial identity! You truly come as you are.
+
+**Keep shining bright like a supernova, remaining unapologetically YOU!**","Du bist ein freier Geist, strotzt vor Abenteuerlust und liebst es, deine Einzigartigkeit zu leben. Mit treuen Crocs an den Füßen bist du stets gewappnet für kosmisch-coole Eskapaden – egal zu welcher Sternzeit. Weltraumwetter & Horoskop-Check gehört fest zu deinem Space-Programm. Und die Alien-Jibbitz an deinen Crocs? 
+
+Die sind das i-Tüpfelchen deines außerirdisch geilen Styles.
+Du nimmst das Motto ""Bleib dir treu"" wörtlich – egal in welcher Inkarnation oder parallelen Realität.
+
+**Bleib der Star, der du bist, unübersehbar wie eine sonnige Supernova! Bleib wie du bist, egal auf welchen Planeten du dich beamst.**","Tu es une âme indépendante et aventureuse, assumant sans crainte ta personnalité unique. Avec tes Crocs préférées aux pieds, tu es toujours paré pour des escapades quotidiennes et ne zappes jamais de lire ton horoscope. Et ces Jibbitz aliens ? Ils collent parfaitement à ta personnalité de l’espace ! Tu as vraiment ton propre style.
+
+**Continue de briller comme une supernova, continue d’être TOI !**",TRUE
+personas.1.buylink,,https://www.crocs.eu,https://www.crocs.eu,https://www.crocs.eu,
+personas.1.buyCTA,,Buy Your Crocs-mic Cruiser Bundle,Hol dir dein Crocs-mischer Weltenbummler-Bundle!,Commande ton pack Voyageur Crocs-mique,
+personas.2.name,,The Gamer Guru,DER GAMER GURU,LE MAÎTRE GAMER,
+personas.2.desc,,"You're the epitome of cool and savvy, with an irresistible obsession for gaming and technology. Sporting your meta avatar, you effortlessly blend coolness and wisdom. You love wearing those classic Crocs from the shower to the playground, but mostly you wear them as a lucky charm to win your games.
+
+**Keep crocking those skills and let your inner gamer shine brighter than ever before!**","Hey, du bist der ultimative Controller-Cowboy und Nerd-Ninja, der König der Konsolen, und kein Highscore ist vor dir sicher. Mit deinen Crocs als Power-Up, bist du immer ready für den nächsten Epic Win, egal, ob auf dem Handy in der Bahn oder beim Boss Fight auf dem Sofa.
+
+**Also, daddel was das Zeug hält, lass deinen inneren Game-Guru erleuchten wie die Neonlichter einer Retro-Arcade! Lass die Pixel tanzen!**","Tu es hyper cool, futé et doté d’une obsession irrésistible pour les jeux vidéo et la technologie. Avec ton meta avatar, tu incarnes ce parfait mélange de sagesse et de coolitude. Tu adores mettre tes indémodables Crocs, de la douche jusque dans la rue et surtout pour qu’elles te portent bonheur quand tu joues en ligne. 
+
+**Continue de croc-quer la vie virtuelle à pleines dents et laisse le gamer qui est en toi rayonner plus que jamais !**",TRUE
+personas.2.buylink,,https://www.crocs.eu,https://www.crocs.eu,https://www.crocs.eu,
+personas.2.buyCTA,,Buy Your Gamer Guru Bundle,Hol dir dein Gamer Guru-Bundle!,Commande ton pack Maître Gamer,
+personas.3.name,,The Eclectic Croc-er,DER VINTAGE CROC-ER,LE CROC-KEUR HIPSTER,
+personas.3.desc,,"Introducing our reliable hipster pal, a connoisseur of all things vintage, including your parents high-end fashion. And oh, the undying love you have for Crocs! If only they existed in the 80s, you'd be raiding grandparents closet for the ultimate dream come true. But hey, who needs time travel when your unique style speaks volumes? 
+
+**Keep Croc-king that hipster vibe, my friend, and let your extraordinary extravagant Crocs shine bright on your parties!**","Hey, du Second-Hand-Hero! 
+
+Als Vintage-Connoisseur hast du eine Schwäche für Retro-Schätze und sogar die Haute Couture deiner Eltern. 
+
+Und, ach, diese unvergängliche Liebe für Crocs! Hätten sie bloß schon in den 80ern existiert - du hättest den Kleiderschrank deiner Großeltern ausgeräumt, um dein ultimatives Vintage-Paradies zu schaffen. 
+
+Aber hey, wer braucht schon Zeitreisen, wenn dein einzigartiger Stil Bände spricht?
+
+**Bleib deinem unverwechselbaren Hipster-Vibe treu, und lass deine ausgefallenen Crocs auf deinen Partys heller strahlen als jede Discokugel!**","Et voilà notre fidèle ami hipster, fan absolu de vintage (ça inclut la garde-robe de tes parents). Ah oui, et fan de Crocs, évidemment ! Si seulement elles existaient dans les années 80, tu porterais déjà celles de tes grands-parents. Le rêve. Mais pourquoi vouloir chercher dans le passé quand on a un style légendaire comme le tien ?
+
+**Ne t’arrête jamais d’être aussi croc’n’roll, mon ami, et chausse tes Crocs les plus extravagantes pour être le plus hype en soirée !**
+",TRUE
+personas.3.buylink,,https://www.crocs.eu,https://www.crocs.eu,https://www.crocs.eu,
+personas.3.buyCTA,,Buy Your Eclectic Croc-er Bundle,Hol dir dein Vintage Croc-er-Bundle,Commande ton pack Croc-keur Hispter,
+personas.4.name,,The Crocs-tar,CROCS-TAR,LA CROCS-TAR,
+personas.4.desc,,"Unleash your inner fashion slayer, defying all norms! With flawless grace and radiating confidence with every stride. You're a true Crocs-legend. And those Mega Crush Delente Cowan Collab moments? They're your time to shine, showcasing your incomparable, radiant style.
+
+**So keep dazzling the world, oh magnificent fashion royalty with those fully loaded crocs on Jibbitz charms! Celebrate and continue to set shiny Crocs as trends!**","Du folgst keiner Mode, du bist selbst Trendsetter: Mit souveräner Eleganz machst du jeden Look zum Hingucker. Neue Follower bekommst du, indem du einfach über die Straße gehst.
+
+Fashion ist dein zweiter Vorname, und deine üppig bestückten Crocs mit fancy-funkelnden Jibbitz sind ein unübersehbares Fashion-Statement. 
+
+**Zelebriere deine Einzigartigkeit und setze weiterhin glitzernde Crocs-Trends! Die Welt braucht deinen Style!**","Libère la fashionista qui est en toi et continue de défier toutes les normes ! Avec ta grâce sans pareille, tu rayonnes par ta confiance et ton amour de toi-même. Tu es une pure Crocs-légende. Et ces Crocs Mega Crush Delente Cowan ? Elles ne demandent qu’à être à tes pieds pour mettre en valeur ton style incomparable.
+
+**Ne t’arrête jamais d’émerveiller ton monde, ô toi maître de la mode, croulant sous les Jibbitz ! Tu es quelqu’un de spécial et il faut le célébrer à chaque instant avec tes Crocs étincelantes !**",TRUE
+personas.4.buylink,,https://www.crocs.eu,https://www.crocs.eu,https://www.crocs.eu,
+personas.4.buyCTA,,Buy Your Crocs-tar Bundle,Hol dir dein Fashion-Crocs-tar-Bundle!,Commande ton pack Crocs-tar,
+personas.5.name,,The Wanderluster,STIMMUNGSMACHER,L’ÉTERNEL BAROUDEUR,
+personas.5.desc,,"Welcome to the party, spreading joy and adventure everywhere you go! Your zest in life if exactly what we needed, igniting our spirits. Embrace the beauty of simplicity as you watch mesmerizing sunsets, sporting chic linen outfits and comfy crocs. You’re a master of turning cliches into magical moments. 
+
+**Keep living life to the fullest, my friend!**","Du bringst gutes Wetter, gute Laune und Abenteuer mit, wo immer du auftauchst! Dein Lebensdurst ist legendär und irgendwie ansteckend.
+
+In deinem schicken legeren Outfit und den super bequemen Crocs genießt du die Leichtigkeit des Seins und lässt dich von atemberaubenden Sonnenuntergängen verzaubern. Du bist ein Profi darin, aus purem Alltag magische Momente zu zaubern.
+
+**Also, leb dein Leben auf vollen Touren und bleib im Urlaubs-Modus!**","Toi, tu aimes la fête, répandre la joie et partir à l’aventure dès que possible ! Ton amour pour la vie est exactement ce dont nous avions besoin pour égayer nos esprits. Goûte à la beauté des choses simples en profitant de somptueux couchers de soleil, avec des vêtements en lin chics et des crocs confortables. Tu es la meilleure personne pour transformer ce genre de moments clichés en quelque chose d’unique.
+
+**Continue à croc-quer la vie à à pleines dents, mon ami !**",TRUE
+personas.5.buylink,,https://www.crocs.eu,https://www.crocs.eu,https://www.crocs.eu,
+personas.5.buyCTA,,Buy Your Wanderluster Bundle,Hol dir dein Stimmungsmacher-Bundle!,Commande ton pack Éternel Baroudeur,
+landing.copy,,"What’s your
+crocs-onality?","Was für eine
+Crocs-onality bist du?","Quelle est ta 
+Crocs-onnalité?",
+landing.CTA,,"Ready, Set, Croc!","Plätze, fertig, Croc!","Prêt, stable, Croc!",
+tutorial.copy,,Please watch our quick tutorial on how to play our quiz,,,
+tutorial.CTA,,Start,Start,Commencer,
+cookies.title,Title for Cookies screen,Your cookies,Your cookies,Your cookies,
+cookies.copy,Initial Cookie Screen message,"Our website uses cookies for site functionality, site performance, analytics, personalized content and ads. By clicking ""Yes, I Accept"" you agree to such use and sharing information with our partners. You can learn more about our use of cookies and partners and also modify your consent through ""Privacy Preferences.""","Our website uses cookies for site functionality, site performance, analytics, personalized content and ads. By clicking ""Yes, I Accept"" you agree to such use and sharing information with our partners. You can learn more about our use of cookies and partners and also modify your consent through ""Privacy Preferences.""","Our website uses cookies for site functionality, site performance, analytics, personalized content and ads. By clicking ""Yes, I Accept"" you agree to such use and sharing information with our partners. You can learn more about our use of cookies and partners and also modify your consent through ""Privacy Preferences.""",
+cookies.CTA.accept,Accept Cookies text,"Yes, I Accept","Yes, I Accept","Yes, I Accept",
+cookies.CTA.settings,Cookie preferences text,Privacy Preferences,Privacy Preferences,Privacy Preferences,
+cookies.settings.title,Title for Cookie Settings,Privacy Preferences,Privacy Preferences,Privacy Preferences,
+cookies.settings.copy,Cookie settings content,"When you visit any website, it may store or retrieve information on your browser, often by using a cookie, which is a small text file that is placed on your computer or mobile device when you visit a website. The information collected might be about you, your preferences or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.  
+
+Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change your default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.","When you visit any website, it may store or retrieve information on your browser, often by using a cookie, which is a small text file that is placed on your computer or mobile device when you visit a website. The information collected might be about you, your preferences or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.  
+
+Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change your default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.","When you visit any website, it may store or retrieve information on your browser, often by using a cookie, which is a small text file that is placed on your computer or mobile device when you visit a website. The information collected might be about you, your preferences or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.  
+
+Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change your default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.",TRUE
+cookies.settings.functional.title,Functional Cookies title,Functional,Functional,Functional,
+cookies.settings.functional.copy,,"These are sometimes called “preference” cookies. During your visit to a website, cookies are used to enhance the performance of the site and to remember information you have entered or choices you have made (such as your language or region) but are non-essential to your use of the site. However, without these cookies, certain functionality may become unavailable.","These are sometimes called “preference” cookies. During your visit to a website, cookies are used to enhance the performance of the site and to remember information you have entered or choices you have made (such as your language or region) but are non-essential to your use of the site. However, without these cookies, certain functionality may become unavailable.","These are sometimes called “preference” cookies. During your visit to a website, cookies are used to enhance the performance of the site and to remember information you have entered or choices you have made (such as your language or region) but are non-essential to your use of the site. However, without these cookies, certain functionality may become unavailable.",
+cookies.settings.analytics.title,,Analytics,Analytics,Analytics,
+cookies.settings.analytics.copy,,"These cookies allow us to count and recognize traffic sources so we can measure the performance of our site. All information these cookies collect is aggregated and therefore does not directly identify you. If you do not allow these cookies, we will not know when you have visited our site and will not be able to monitor its performance.","These cookies allow us to count and recognize traffic sources so we can measure the performance of our site. All information these cookies collect is aggregated and therefore does not directly identify you. If you do not allow these cookies, we will not know when you have visited our site and will not be able to monitor its performance.","These cookies allow us to count and recognize traffic sources so we can measure the performance of our site. All information these cookies collect is aggregated and therefore does not directly identify you. If you do not allow these cookies, we will not know when you have visited our site and will not be able to monitor its performance.",
+cookies.settings.CTA,,Save and Close,,,
+result.reveal.prompt,,Tap to reveal your <br/> Croc-onality!,Entdecke jetzt deine <br/> Crocs-onality,Clique pour découvrir ta <br>Crocs-onnalité,
+result.share.title,,Share on Instagram,Teile auf Instagram!,Partage sur Instagram,
+result.share.copy,,Don’t forget to follow @crocseurope on Instagram to enter our monthly giveaway competitions and get exclusive updates.,"Vergiss nicht, @CrocsEurope auf Instagram zu folgen, um sicherzustellen, dass du bei unseren monatlichen Gewinnspielen dabei bist und keine Updates verpasst.","N’oublie pas de t’abonner à @crocseurope sur Instagram pour participer à nos concours mensuels, remporter des cadeaux et avoir des infos exclusives.",
+result.qr.title,,Scan QR code to share on Instagram,Scanne den QR Code und Teile & Tagge zum Gewinnen!,Scanne le QR code pour partager sur Instagram,
+result.qr.copy,,Don’t forget to follow @crocseurope on Instagram to enter our monthly giveaway competitions and get exclusive updates.,"Vergiss nicht, @CrocsEurope auf Instagram zu folgen, um sicherzustellen, dass du bei unseren monatlichen Gewinnspielen dabei bist und keine Updates verpasst.","N’oublie pas de t’abonner à @crocseurope sur Instagram pour participer à nos concours mensuels, remporter des cadeaux et avoir des infos exclusives.",
+result.terms,,"By sharing you agree to our <a href="""">Terms & Conditions</a>",,,
+result.buy.title,,Free Jibbitz Offer,Kostenloses Jibbitz-Angebot,Offre Jibbitz gratuite,
+result.buy.copy,,"One FREE Jibbitz, with every single Jibbitz purchase.  
+
+*Code: Crocs-onality*  
+
+<small>*Valid from June 15th to December 31st - Subject to availability. Not applicable to multipacks, only single item</small>","Jetzt ein GRATIS Jibbitz mit jedem Jibbitz-Kauf.
+
+*Coupon-Code: Crocs-onality*
+
+<small>* Gültig von 15. Juni bis 31. Dezember. Je nach Verfügbarkeit. Nicht anwendbar auf Multipacks, nur einzelne Artikel.</small>","
+Pour un Jibbitz acheté, un Jibbitz OFFERT.
+
+*Code : Crocs-onality*
+
+<small>*Offre valable du 15 juin au 31 décembre dans la limite des stocks disponibles. Offre non valable sur les packs. Valable pour un article seulement.</small>
+",TRUE
+result.buy.CTA,,Buy Your {{persona}} Bundle,,,
+result.share.CTA,,Share Your Crocs-onality,Teile deine Crocs-onality,Partage ta personnalité,
+result.share.competition.CTA,,Share & Tag to Win,Teile & Tagge zum Gewinnen!,Partage et tague pour gagner,
+language.title,,Language Selector,Language Selector,Language Selector,
+language.copy,,"Your language is currently set to English. If you would like to change your language, please select new language from the dropdown.","Your language is currently set to English. If you would like to change your language, please select new language from the dropdown.","Your language is currently set to English. If you would like to change your language, please select new language from the dropdown.",
+language.CTA,,OK,OK,OK,
+language.dropdown.en_GB,,English,English,English,
+language.dropdown.fr_FR,,Français,Français,Français,
+language.dropdown.de_DE,,Deutsch,Deutsch,Deutsch,
+tutorial.step[1],,Answer 10 x ‘Would You Rather’ questions,"Beantworte 10 
+'Würdest du lieber'-Fragen","Réponds aux 
+10 questions « Tu préfères »",
+tutorial.step[2],,Find out which Crocs-onality you have!,"Finde heraus, welche Crocs-onality du hast!",Découvrez quelle Crocs-onality vous avez !,
+tutorial.step[3],,"Share to your socials, for friends to try too!",Teile es mit deinen Freunden auf Social Media!,Partagez-le avec vos amis sur les réseaux sociaux !,
+tutorial.buy.step[3],,Get access to purchase a personalised Jibbitz bundle for your unique Crocs-onality,Erhalte Zugang zu einem personalisierten Jibbitz-Bundle zu deiner Crocs-onality.,Accède à l’achat d’un pack de Jibbitz personnalisés pour le personnage unique que tu incarnes,
+tutorial.disclaimer,,By using this site you agree to our [[Terms of Use]].,Durch die Nutzung dieser Website stimmst du den [[Nutzungsbedingungen zu]].,"En utilisant ce site, tu acceptes les [[conditions d’utilisation]].",
+reveal.CTA,,Click To Reveal Your Crocs-onality!,Entdecke jetzt deine Crocs-onality,Clique pour découvrir ta Crocs-onnalité,
+landscape.title,,PLEASE ROTATE YOUR DEVICE,PLEASE ROTATE YOUR DEVICE,PLEASE ROTATE YOUR DEVICE,
+landscape.description,,"For the best experience, rotate your device to portrait mode and try again.","For the best experience, rotate your device to portrait mode and try again.","For the best experience, rotate your device to portrait mode and try again.",
+terms.title,,Terms of Use,Nutzungsbedingungen,Conditions d'utilisation,
+terms.copy,,"<p>These terms of use (&quot;Agreement&quot;) govern the user&rsquo;s (&lsquo;your&rsquo; or &lsquo;you&rsquo;) use of the microsite (&quot;Microsite&quot;) provided by O&rsquo;Neill Modernmedia (OMM) Ltd, Unit 1 &amp; 2 Trade City, Clivemont Road, Maidenhead, Berkshire, United Kingdom, SL6 7DZCrocs (&quot;Provider&quot;) on behalf of Crocs Europe B.V., Planeetbaan 4, 2132 HZ, Hoofddorp, The Netherlands (&lsquo;Crocs&rsquo;). By accessing or using the Microsite, you agree to be bound by these terms. If you do not agree with any part of these terms, please refrain from accessing or using the Microsite.</p>
+<ul>
+  <span>1. Use of Microsite</span>
+  <li>1.1. The Microsite is provided for informational and/or personal entertainment purposes only and is subject to change without notice.</li>
+  <li>1.2. You agree to use the Microsite in compliance with all applicable laws, regulations, and these terms. You shall not engage in any activity that may disrupt or interfere with the operation or security of the Microsite.</li>
+  <li>1.3 As this Microsite is for the purposes described above under 1.1, use hereof does not entitle you to any prizes or other awards unless specifically stated so under separate or amended terms of use. </li>
+  <span>2. Intellectual Property</span>
+  <li>2.1. All intellectual property rights, including but not limited to trademarks, logos, graphics, images, text, and other materials used on the Microsite, are the property of Crocs or their respective owners. The Crocs logo, all product names, all page headers, all custom graphics, all button icons, all trademarks, service marks, and logos appearing on this Microsite, unless otherwise noted, are service marks, trademarks (whether registered or not), and/or trade dress of Crocs (&quot;Marks&quot;). All other trademarks, product names, company names, logos, service marks, and/or trade dress mentioned, displayed, cited, or otherwise indicated on the Microsite are the property of their respective owners.</li>
+  <li>2.2. You are not authorized to display or use the Marks in any manner without the prior written permission of Crocs. You are not authorized to display or use trademarks, product names, company names, logos, service marks, and/or trade dress of other owners without the prior written permission of such owners.</li>
+  <li>2.3. You may not modify, distribute, reproduce, transmit, display, or create derivative works of any content from the Microsite without the prior written consent of Crocs or the respective rights holders.</li>
+  <span>3. User-Generated Content</span>
+  <li>3.1. The Microsite may allow users to submit or post content, such as comments, reviews, or other materials (&quot;User-Generated Content&quot;). By submitting User-Generated Content, you grant Crocs a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, and sublicensable right to use, reproduce, modify, adapt, publish, translate, distribute, and display such User-Generated Content in any media.</li>
+  <li>3.2. You represent and warrant that you have all necessary rights to grant the above license for any User-Generated Content you submit and that such content does not infringe upon the rights of any third party.</li>
+  <span>4. Disclaimer of Warranties</span>
+  <li>4.1. The Microsite is provided on an &quot;as is&quot; and &quot;as available&quot; basis, without any warranties of any kind, whether express or implied.</li>
+  <li>4.2. Crocs does not warrant that the Microsite will be error-free, uninterrupted, or free of viruses or other harmful components.</li>
+  <span>5. Limitation of Liability</span>
+  <li>5.1. To the extent permitted by law, Crocs shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or in connection with your use of the Microsite.</li>
+  <span>6. Indemnification</span>
+  <li>6.1. You agree to indemnify and hold Crocs and its affiliates, officers, directors, employees, and agents harmless from any claims, liabilities, damages, losses, costs, or expenses, including reasonable attorneys' fees, arising out of or in connection with your use of the Microsite or any violation of this Agreement.</li>
+  <span>7. Termination</span>
+  <li>7.1. Crocs reserves the right to suspend, restrict, or terminate your access to the Microsite at any time without notice and for any reason.</li>
+  <span>8. Governing Law &amp; Jurisdiction</span>
+  <li>8.1 These terms are governed by the laws of The Netherlands and any disputes arising out of your use of the Microsite or relating to these terms shall be brought before the competent courts of Amsterdam, The Netherlands, if not amicable resolved between parties.</li>
+  <span>9. Data Protection</span>
+  <li>9.1 The Provider, Crocs and its affiliate shall collect only those personal details that have been expressly and freely given by you. </li>
+  <li>9.2 Any of your personal data required for your use of the Microsite shall be processed under the responsibility of the Provider. The Provider shall process your personal data in accordance with applicable laws. Your personal data shall not be furnished to third parties without your prior consent, except in the event Provider or Crocs is obliged thereto on the basis of a statutory provision, a court decision. <br>
+    The Provider and Crocs shall use your personal data for the administration of this quiz, unless you have given permission for your personal data to be used for marketing, promotional or other purposes as stated in these terms. Your personal data will be retained for as long as Provider and/or Crocs has a legitimate business interest.</li>
+  <span>10. Cookies</span>
+  <li>When you visit the Microsite, it may store or retrieve information on your browser, often by using a cookie, which is a small text file that is placed on your computer or mobile device. The information collected might be about you, your preferences or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience.</li>
+  <li>Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings in the introduction cookie banner to find out more and change your default settings. However, blocking some types of cookies may impact your experience of the Micror analytics osite and the services we are able to offer.</li>
+  <li>The Microsite can place functional cookies: this type of cookies helps to analyze how the Microsite is used, helps us detect errors and develop new designs. It also allows us to test the effectiveness of the Microsite. You can turn functional/analytics cookies on or off without losing the experience of the Microsite.</li>
+  <li>Necessary cookies are placed to allow you to access the features of the Microsite.  </li>
+  <li>We use this type of cookies to enable essential parts of the Microsite and to ensure that certain features work properly, such as the option to log in. This tracking option is always enabled, otherwise you will not be able to view the Microsite.</li>
+  <span>11. Complaints</span>
+  <li>11.1 Complaints or questions regarding these terms can be addressed to Crocs Europe B.V., Planeetbaan 4, 2132 HZ Hoofddorp, The Netherlands or emailed to <a href=""mailto:socialmedia@crocs.com"">socialmedia@crocs.com</a>.</li>
+</ul>","<p>Diese Nutzungsbedingungen („Vereinbarung“) regeln des Nutzers („Ihr/e“ oder („Sie“) die Nutzung der Microsite („Microsite“), bereitgestellt durch O'Neill Modernmedia (OMM) Ltd, Unit 1 &amp; 2 Trade City, Clivemont Road, Maidenhead, Berkshire, Vereinigtes Königreich, SL6 7DZCrocs („Anbieter“) im Namen von Crocs Europe B.V., Planeetbaan 4, 2132 HZ, Hoofddorp, Niederlande („Crocs“). Indem Sie die Microsite aufrufen oder nutzen, erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit einem beliebigen Teil dieser Vereinbarung nicht einverstanden sind, unterlassen Sie bitte den Zugriff oder die Nutzung der Microsite.</p>
+<ul>
+  <span>1. Nutzung der Microsite</span>
+  <li>1.1. Die Microsite dient nur zu Informationszwecken und/oder zur persönlichen Unterhaltung und kann ohne vorherige Ankündigung geändert werden.</li>
+  <li>1.2. Sie verpflichten sich, die Microsite in Übereinstimmung mit allen geltenden Gesetzen, Vorschriften und dieser Vereinbarung zu nutzen. Sie dürfen sich nicht an Aktivitäten beteiligen, die den Betrieb oder die Sicherheit der Microsite stören oder beeinträchtigen könnten.</li>
+  <li>1.3. Da diese Microsite den oben unter 1.1 beschriebenen Zwecken dient, berechtigt die Nutzung nicht zum Erhalt von Preisen oder anderen Auszeichnungen, es sei denn, dies wird in separaten oder geänderten Nutzungsbedingungen ausdrücklich angegeben.</li>
+  <span>2. Geistiges Eigentum</span>
+  <li>2.1. Alle Rechte am geistigen Eigentum, einschließlich, aber nicht beschränkt auf Marken, Logos, Grafiken, Bilder, Texte und andere Materialien, die auf der Microsite verwendet werden, sind Eigentum von Crocs oder ihrer jeweiligen Eigentümer. Das Crocs-Logo, alle Produktnamen, alle Seitenkopfzeilen, alle benutzerdefinierten Grafiken, alle Schaltflächensymbole, alle Marken, Dienstleistungsmarken und Logos, die auf dieser Microsite erscheinen, sind, sofern nicht anders angegeben, Dienstleistungsmarken, Marken (ob eingetragen oder nicht) und/oder Handelsaufmachungen von Crocs („Marken“). Alle anderen Marken, Produktnamen, Firmennamen, Logos, Dienstleistungsmarken und/oder Handelsaufmachungen, die auf der Microsite erwähnt, angezeigt, zitiert oder anderweitig angegeben werden, sind das Eigentum der jeweiligen Inhaber.</li>
+  <li>2.2. Sie sind nicht berechtigt, die Marken ohne die vorherige schriftliche Genehmigung von Crocs in irgendeiner Weise darzustellen oder zu verwenden. Sie sind nicht berechtigt, Marken, Produktnamen, Firmennamen, Logos, Dienstleistungsmarken und/oder Handelsaufmachungen anderer Eigentümer ohne die vorherige schriftliche Genehmigung dieser Eigentümer darzustellen oder zu verwenden.</li>
+  <li>2.3. Sie sind nicht berechtigt, Inhalte der Microsite ohne die vorherige schriftliche Zustimmung von Crocs oder der jeweiligen Rechteinhaber zu verändern, zu vertreiben, zu vervielfältigen, zu übertragen, anzuzeigen oder davon abgeleitete Werke zu erstellen.</li>
+  <span>3. Nutzergenerierte Inhalte</span>
+  <li>3.1. Die Microsite kann es Nutzern gestatten, Inhalte einzureichen oder zu veröffentlichen, beispielsweise Kommentare, Bewertungen oder andere Materialien (""nutzergenerierte Inhalte""). Durch die Übermittlung von nutzergenerierten Inhalten gewähren Sie Crocs ein weltweites, nicht exklusives, gebührenfreies, unbefristetes, unwiderrufliches und unterlizenzierbares Recht, diese nutzergenerierten Inhalte in allen Medien zu verwenden, zu reproduzieren, zu modifizieren, anzupassen, zu veröffentlichen, zu übersetzen, zu vertreiben und anzuzeigen.</li>
+  <li>3.2. Sie versichern und gewährleisten, dass Sie über alle erforderlichen Rechte verfügen, um die oben genannte Lizenz für von Ihnen übermittelte nutzergenerierte Inhalte zu gewähren, und dass diese Inhalte nicht gegen die Rechte Dritter verstoßen.</li>
+  <span>4. Ausschluss von Garantien</span>
+  <li>4.1. Die Microsite wird ohne Mängelgewähr und wie verfügbar zur Verfügung gestellt, ohne jegliche ausdrückliche oder stillschweigende Garantien.</li>
+  <li>4.2. Crocs garantiert nicht, dass die Microsite fehlerfrei, ohne Unterbrechungen oder frei von Viren oder anderen schädlichen Komponenten ist.</li>
+  <span>5. Haftungsbeschränkung</span>
+  <li>5.1. Soweit gesetzlich zulässig, haftet Crocs nicht für direkte, indirekte, zufällige oder nachfolgende Schäden, die sich aus oder in Verbindung mit Ihrer Nutzung der Microsite ergeben.</li>
+  <span>6. Entschädigung</span>
+  <li>6.1. Sie erklären sich damit einverstanden, Crocs und seine verbundenen Unternehmen, leitenden Angestellten, Direktoren, Mitarbeiter und Vertreter von allen Ansprüchen, Haftungen, Schäden, Verlusten, Kosten oder Ausgaben, einschließlich angemessener Anwaltsgebühren, die sich aus oder in Verbindung mit Ihrer Nutzung der Microsite oder einem Verstoß gegen diese Vereinbarung ergeben, freizustellen und schadlos zu halten.</li>
+  <span>7. Beendigung</span>
+  <li>7.1. Crocs behält sich das Recht vor, Ihren Zugang zur Microsite jederzeit ohne Vorankündigung und aus beliebigen Gründen auszusetzen, einzuschränken oder zu beenden.</li>
+  <span>8. Geltendes Recht &amp; Gerichtsbarkeit</span>
+  <li>8.1 Diese Bedingungen unterliegen den Gesetzen der Niederlande, und alle Streitigkeiten, die sich aus Ihrer Nutzung der Microsite ergeben oder sich auf diese Bedingungen beziehen, sind vor den zuständigen Gerichten in Amsterdam, Niederlande, anhängig zu machen, wenn sie nicht gütlich zwischen den Parteien beigelegt werden können.</li>
+  <span>9. Datenschutz</span>
+  <li>9.1 Der Anbieter, Crocs und seine verbundenen Unternehmen dürfen nur solche personenbezogenen Daten erfassen, die Sie ausdrücklich und freiwillig angegeben haben.</li>
+  <li>""9.2 Alle Ihre persönlichen Daten, die für die Nutzung der Microsite erforderlich sind, werden unter der Verantwortung des Anbieters verarbeitet. Der Anbieter verarbeitet Ihre personenbezogenen Daten in Übereinstimmung mit den geltenden Gesetzen. Ihre persönlichen Daten werden ohne Ihre vorherige Zustimmung nicht an Dritte weitergegeben, es sei denn, der Anbieter oder Crocs sind aufgrund einer gesetzlichen Bestimmung oder eines Gerichtsbeschlusses dazu verpflichtet.<br>
+    Der Anbieter und Crocs dürfen Ihre persönlichen Daten für die Verwaltung dieses Quiz verwenden, es sei denn, Sie haben die Erlaubnis erteilt, dass Ihre persönlichen Daten für Marketing-, Werbe- oder andere Zwecke verwendet werden dürfen, wie in diesen Bedingungen angegeben. Ihre persönlichen Daten werden so lange gespeichert, wie der Anbieter und/oder Crocs ein berechtigtes Geschäftsinteresse hat."".</li>
+  <span>10. Cookies</span>
+  <li>""Wenn Sie die Microsite besuchen, kann sie Informationen in Ihrem Browser speichern oder abrufen, häufig unter Verwendung eines Cookies, wobei es sich um eine kleine Textdatei handelt, die auf Ihrem Computer oder Mobilgerät gespeichert wird. Die gesammelten Informationen können sich auf Sie, Ihre Präferenzen oder Ihr Gerät beziehen und werden hauptsächlich verwendet, damit die Website so funktioniert, wie Sie es erwarten. Mit diesen Informationen können Sie in der Regel nicht direkt identifiziert werden, aber sie können Ihnen ein personalisiertes Web-Erlebnis bieten. Da wir Ihr Recht auf Privatsphäre respektieren, können Sie sich dafür entscheiden, einige Arten von Cookies nicht zuzulassen. Klicken Sie auf die verschiedenen Kategorieüberschriften im Banner mit den Einführungs-Cookies, um mehr darüber zu erfahren und Ihre Standardeinstellungen zu ändern. Die Blockierung einiger Arten von Cookies kann jedoch Ihre Erfahrung mit den Mikroanalysen auf der Seite und den von uns angebotenen Dienstleistungen beeinträchtigen. </li>
+  <li>Die Microsite kann funktionale Cookies platzieren: Diese Art von Cookies hilft zu analysieren, wie die Microsite genutzt wird, sowie Fehler zu erkennen und neue Designs zu entwickeln. Sie ermöglichen es uns auch, die Wirksamkeit der Microsite zu testen. Sie können funktionale/analytische Cookies ein- oder ausschalten, ohne dass Sie das Erlebnis der Microsite verlieren.</li>
+  <li>Notwendige Cookies werden gesetzt, um Ihnen den Zugriff auf die Funktionen der Microsite zu ermöglichen. Wir verwenden diese Art von Cookies, um wesentliche Teile der Microsite zu ermöglichen und um sicherzustellen, dass bestimmte Funktionen ordnungsgemäß funktionieren, wie z. B. die Möglichkeit, sich anzumelden. Diese Tracking-Option ist immer aktiviert, andernfalls können Sie die Microsite nicht ansehen.""</li>
+  <span>11. Beschwerden</span>
+  <li>11.1 Beschwerden oder Fragen zu diesen Bedingungen können an Crocs Europe B.V., Planeetbaan 4, 2132 HZ Hoofddorp, Niederlande, oder per E-Mail an <a href=""mailto:socialmedia@crocs.com"">socialmedia@crocs.com</a> gerichtet werden.</li>","<p>Les présentes conditions d'utilisation (""Accord"") régissent l'utilisation par l'utilisateur (""votre"" ou ""vous"") du microsite (""Microsite"") fourni par O'Neill Modernmedia (OMM) Ltd, Unit 1 &amp; 2 Trade City, Clivemont Road, Maidenhead, Berkshire, United Kingdom, SL6 7DZCrocs (""Fournisseur"") au nom de Crocs Europe B.V., Planeetbaan 4, 2132 HZ, Hoofddorp, The Netherlands (""Crocs""). En accédant au microsite ou en l'utilisant, vous acceptez d'être lié par les présentes conditions. Si vous n'êtes pas d'accord avec une quelconque partie de ces conditions, veuillez vous abstenir d'accéder au microsite ou de l'utiliser.</p>
+<ul>
+  <span>1. Utilisation du microsite</span>
+  <li>1.1. Le microsite est fourni à des fins d'information et/ou de divertissement personnel uniquement et peut être modifié sans préavis.</li>
+  <li>1.2. Vous acceptez d'utiliser le microsite dans le respect de toutes les lois et réglementations applicables et des présentes conditions. Vous ne vous livrerez à aucune activité susceptible de perturber ou d'interférer avec le fonctionnement ou la sécurité du microsite.</li>
+  <li>1.3 Ce microsite étant destiné aux fins décrites ci-dessus au point 1.1, son utilisation ne vous donne pas droit à des prix ou autres récompenses, sauf mention expresse dans des conditions d'utilisation distinctes ou modifiées. </li>
+  <span>2. Propriété intellectuelle</span>
+  <li>2.1. Tous les droits de propriété intellectuelle, y compris, mais sans s'y limiter, les marques, logos, graphiques, images, textes et autres éléments utilisés sur le microsite, sont la propriété de Crocs ou de leurs propriétaires respectifs. Le logo Crocs, tous les noms de produits, tous les en-têtes de page, tous les graphiques personnalisés, toutes les icônes de boutons, toutes les marques de commerce, marques de service et logos apparaissant sur le microsite, sauf indication contraire, sont des marques de service, des marques de commerce (déposées ou non) et/ou des habillages commerciaux de Crocs (""marques""). Toutes les autres marques, noms de produits, noms de sociétés, logos, marques de service et/ou habillages commerciaux mentionnés, affichés, cités ou autrement indiqués sur le microsite sont la propriété de leurs détenteurs respectifs.</li>
+  <li>2.2. Vous n'êtes pas autorisé à afficher ou à utiliser les marques de quelque manière que ce soit sans l'autorisation écrite préalable de Crocs. Vous n'êtes pas autorisé à afficher ou à utiliser les marques, noms de produits, noms de sociétés, logos, marques de service et/ou habillages commerciaux d'autres propriétaires sans l'autorisation écrite préalable de ces derniers.</li>
+  <li>2.3. Vous n'êtes pas autorisé à modifier, distribuer, reproduire, transmettre, afficher ou créer des œuvres dérivées de tout contenu du microsite sans l'accord écrit préalable de Crocs ou des détenteurs de droits respectifs.</li>
+  <span>3. Contenu généré par l'utilisateur</span>
+  <li>3.1. Le microsite peut permettre aux utilisateurs de soumettre ou de publier du contenu, tel que des commentaires, des critiques ou d'autres documents ("" Contenu généré par l'utilisateur ""). En soumettant du contenu généré par l'utilisateur, vous accordez à Crocs le droit mondial, non exclusif, libre de redevances, perpétuel, irrévocable et pouvant faire l'objet d'une sous-licence d'utiliser, de reproduire, de modifier, d'adapter, de publier, de traduire, de distribuer et d'afficher ce contenu généré par l'utilisateur dans n'importe quel média.</li>
+  <li>3.2. Vous déclarez et garantissez que vous disposez de tous les droits nécessaires pour accorder la licence susmentionnée pour tout contenu généré que vous soumettez et que ce contenu ne porte pas atteinte aux droits d'un tiers.</li>
+  <span>4. Exclusion de garantie</span>
+  <li>4.1. Le microsite est fourni ""en l'état"" et ""tel que disponible"", sans aucune garantie d'aucune sorte, qu'elle soit expresse ou implicite.</li>
+  <li>4.2. Crocs ne garantit pas que le microsite sera exempt d'erreurs, d'interruptions, de virus ou d'autres éléments nuisibles.</li>
+  <span>5. Limitation de la responsabilité</span>
+  <li>5.1. Dans les limites autorisées par la loi, Crocs ne peut être tenu responsable des dommages directs, indirects, accessoires, consécutifs ou punitifs découlant de votre utilisation du microsite ou en rapport avec celle-ci.</li>
+  <span>6. Indemnisation</span>
+  <li>6.1. Vous acceptez d'indemniser et de dégager Crocs et ses filiales, dirigeants, administrateurs, employés et agents de toute responsabilité en cas de réclamations, responsabilités, dommages, pertes, coûts ou dépenses, y compris les honoraires d'avocat raisonnables, découlant de ou en rapport avec votre utilisation du microsite ou de toute violation du présent accord.</li>
+  <span>7. Résiliation</span>
+  <li>7.1. Crocs se réserve le droit de suspendre, de restreindre ou de résilier votre accès au microsite à tout moment, sans préavis et pour quelque raison que ce soit.</li>
+  <span>8. Droit applicable et juridiction</span>
+  <li>8.1 Les présentes conditions sont régies par le droit néerlandais et tout litige découlant de votre utilisation du microsite ou lié aux présentes conditions sera porté devant les tribunaux compétents d'Amsterdam, aux Pays-Bas, s'il n'est pas résolu à l'amiable entre les parties.</li>
+  <span>9. Protection des données </span>
+  <li>9.1 Le Fournisseur, Crocs et ses affiliés ne recueillent que les données personnelles que vous leur avez expressément et librement communiquées. </li>
+  <li>9.2 Les données personnelles requises pour l'utilisation du microsite sont traitées sous la responsabilité du fournisseur. Le prestataire traitera vos données à caractère personnel conformément aux lois applicables. Vos données personnelles ne seront pas communiquées à des tiers sans votre consentement préalable, sauf si le fournisseur ou Crocs y est contraint en vertu d'une disposition légale ou d'une décision de justice. </li>
+  <li>Le prestataire et Crocs utiliseront vos données personnelles pour l'administration de ce quiz, à moins que vous n'ayez autorisé l'utilisation de vos données personnelles à des fins de marketing, de promotion ou autres, comme indiqué dans les présentes conditions. Vos données personnelles seront conservées aussi longtemps que le Fournisseur et/ou Crocs auront un intérêt commercial légitime. </li>
+  <span>10. Cookies</span>
+  <li>Lorsque vous visitez le microsite, celui-ci peut stocker ou récupérer des informations sur votre navigateur, souvent en utilisant un cookie, qui est un petit fichier texte placé sur votre ordinateur ou votre appareil mobile. Les informations collectées peuvent porter sur vous, vos préférences ou votre appareil, et sont principalement utilisées pour que le site fonctionne comme vous l'attendez. En général, ces informations ne permettent pas de vous identifier directement, mais elles peuvent vous offrir une expérience web plus personnalisée. </li>
+  <li>Parce que nous respectons votre droit à la vie privée, vous pouvez choisir de ne pas autoriser certains types de cookies. Cliquez sur les différentes catégories de la bannière d'introduction aux cookies pour en savoir plus et modifier vos paramètres par défaut. Toutefois, le blocage de certains types de cookies peut avoir une incidence sur votre expérience du microsite et sur les services que nous sommes en mesure d'offrir. </li>
+  <li>Le microsite peut placer des cookies fonctionnels : ce type de cookies nous aide à analyser la manière dont le microsite est utilisé, à détecter les erreurs et à développer de nouvelles versions. Il nous permet également de tester l'efficacité du microsite. Vous pouvez activer ou désactiver les cookies fonctionnels/analytiques sans perdre l'expérience du microsite. </li>
+  <li>Les cookies nécessaires sont placés pour vous permettre d'accéder aux fonctionnalités du microsite. </li>
+  <li>Nous utilisons ce type de cookies pour activer des parties essentielles du microsite et pour garantir le bon fonctionnement de certaines fonctionnalités, telles que l'option de connexion. Cette option de suivi est toujours activée, sinon vous ne pourrez pas consulter le microsite. </li>
+  <span>11. Réclamations</span>
+  <li>11.1 Les réclamations ou questions concernant les présentes conditions peuvent être adressées à Crocs Europe B.V., Planeetbaan 4, 2132 HZ Hoofddorp, The Netherlands, ou envoyées par courrier électronique à <a href=""mailto:socialmedia@crocs.com"">socialmedia@crocs.com</a>.</li>
+</ul>",
+terms.CTA,,I Understand,Ich verstehe,Je comprends,
